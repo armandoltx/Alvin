@@ -1,0 +1,79 @@
+@import 'https://fonts.googleapis.com/css?family=Nunito|Ubuntu';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Nunito', sans-serif;
+    color: #0FB4C7;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #E83338;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.art {
+    width: 400px;
+    border: 1px solid black;
+}
+
+.art header h2, .view-all {
+    display: inline-block;
+}
+
+.view-all {
+    padding-left: 10px;
+}
+
+.view-all:hover {
+    color: #E83338;
+}
+
+.art header h2 {
+    border-right: 1px solid black;
+    padding: 5px 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.entry-text {
+    margin-left: 5px;
+    padding: 20px 0 30px;
+}
+
+.entry-text h3 {
+    margin: 10px 0;
+}
+
+.entry-text p {
+    line-height: 1.4;
+    margin: 20px 0 35px;
+}
+
+.read-more {
+    border: 1px solid #E83338;
+    padding: 10px;
+}
+
+.read-more:hover {
+    border: 1px solid #0FB4C7;
+}
